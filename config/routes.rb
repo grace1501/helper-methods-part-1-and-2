@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   # CREATE
   post "/movies" => "movies#create", as: :movies
-  get "/movies/new" => "movies#new", as: :new_movies
+  get "/movies/new" => "movies#new", as: :new_movie
   
   # READ
   get "/movies" => "movies#index"
